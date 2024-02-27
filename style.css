@@ -34,7 +34,7 @@ label {
 
   --font-size-s: 0.5rem;
   --font-size-m: 1.5rem;
-  --font-size-l: 3rem;
+  --font-size-l: 4rem;
   --border-radius: 0.5rem;
 }
 
@@ -51,11 +51,10 @@ body {
 
 .attribution {
   color: var(--black);
-  font-size: 10px;
-  text-align: center;
+  font-size: 8px;
   margin-top: 5px;
-  margin-left: 20px;
-  text-align: left;
+  margin-left: -25px;
+  text-align: center;
 }
 
 .attribution a {
@@ -170,9 +169,10 @@ input:focus {
 }
 
 .result h1 {
-  font-size: var(--font-size-l);
+  font-size: 3.2rem;
   font-style: italic;
   color: var(--black);
+  margin-left: 5px;
 }
 
 .result span {
@@ -227,9 +227,9 @@ small {
   }
 
   .card {
-    width: fit-content;
+    width: 760px;
     border-radius: 1rem 1rem 10rem 1rem;
-    padding: 2rem;
+    padding: 4rem;
   }
 
   form {
@@ -252,7 +252,18 @@ small {
     outline: none;
   }
 
+  .result h1 {
+    font-size: var(--font-size-l);
+  }
+
   .submit>hr {
     position: relative;
+  }
+
+  .attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -20px;
   }
 }
