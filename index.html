@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <form>
+          <div class="form-box">
+            <div class="section">
+              <label for="day" id="label">Day</label>
+              <input
+                type="number"
+                pattern="[0-9]*"
+                name="number"
+                id="day"
+                placeholder="DD" />
+              <small class="error-day"></small>
+            </div>
+            <div class="section">
+              <label for="month" id="label">Month</label>
+              <input
+                type="number"
+                pattern="[0-9]*"
+                name="number"
+                id="month"
+                placeholder="MM" />
+              <small class="error-month"></small>
+            </div>
+            <div class="section">
+              <label for="year" id="label">Year</label>
+              <input
+                type="number"
+                pattern="[0-9]*"
+                name="number"
+                id="year"
+                placeholder="YYYY" />
+              <small class="error-year"></small>
+            </div>
+          </div>
+          <div class="submit">
+            <hr />
+            <div class="center">
+              <button type="submit" class="submit-btn" aria-label="Submit">
+                <img src="/assets/images/icon-arrow.svg" alt="submit icon" />
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="result">
+          <h1><span class="year">--</span>Years</h1>
+          <h1><span class="month">--</span>Months</h1>
+          <h1><span class="day">--</span>Days</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
