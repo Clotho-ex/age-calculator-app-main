@@ -57,4 +57,4 @@ Learned that months are 0 indexed.
 ## Author
 
 - Website - [Yusufcan Var](https://github.com/Clotho-ex)
-- Frontend Mentor - [@Clotho-ex](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Clotho-ex](https://www.frontendmentor.io/profile/Clotho-ex)
