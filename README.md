@@ -1,18 +1,18 @@
-# Frontend Mentor - Age calculator app solution
+# Frontend Mentor - Age Calculator App
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Age calculator app solution](#frontend-mentor---age-calculator-app-solution)
-  - [Table of contents](#table-of-contents)
+- [Frontend Mentor - Age Calculator App Solution](#frontend-mentor---age-calculator-app-solution)
+  - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-    - [The challenge](#the-challenge)
+    - [The Challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
+  - [My Process](#my-process)
+    - [Built With](#built-with)
+    - [What I Learned](#what-i-learned)
   - [Author](#author)
 
 ## Overview
@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-Learned how to do date calculation with Date() object. 
+Learned how to do date calculation with the Date() object. 
 Learned that months are 0 indexed.
 
 ## Author
